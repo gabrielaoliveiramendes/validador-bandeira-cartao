@@ -1,0 +1,54 @@
+*{
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 15px;
+}
+
+h1{
+    font-size: 1.3rem;
+    width: 250px;
+    text-align: center;
+}
+
+.card-form{
+    background-color: #dbd9d9;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-user{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.input-user input{
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #000000;
+}
+
+button{
+    width: 100px;
+    background-color: rgb(45, 132, 231);
+    border: none;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}

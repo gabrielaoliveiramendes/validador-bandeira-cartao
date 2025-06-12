@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Bandeiras</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="container">
+        <h1>Validador de Bandeiras de Cartão de Crédito</h1>
+
+        <form class="card-form">
+            <div class="input-user">
+                <label for="card-number">Número do cartão</label>
+
+                <input type="text" 
+                id="card-number" 
+                name="card-number" 
+                inputmode="numeric" 
+                pattern="[0-9\s]{13,19}" 
+                maxlength="19" 
+                placeholder="Digite o número do cartão" 
+                autocomplete="cc-number"
+                required>
+            </div>
+
+            <button type="submit">Enviar</button>
+
+            <div>
+                <p id="resultado">Bandeira:</p>
+            </div>
+        </form>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
