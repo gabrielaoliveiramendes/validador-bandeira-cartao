@@ -1,6 +1,8 @@
 # Validador de Bandeiras de Cartão de Crédito
 
-![Preview Validador de Bandeiras de Cartão de Crédito](./imagens/preview.png)
+<div align="center">
+  <img src="./imagens/preview.png" alt="Preview Validador de Bandeiras de Cartão de Crédito" width="650">
+</div>
 
 ![Badge Desafio DIO](https://img.shields.io/badge/Desafio%20Projeto-DIO-blue?style=for-the-badge)
 
